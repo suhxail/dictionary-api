@@ -1,0 +1,46 @@
+.topbar {
+    background-image: linear-gradient(90deg, #1847B5 0%, #326CF2 100%);
+    position: fixed;       
+    width: 100%;
+    z-index: 9000;
+    left: 0;
+    padding: 0px;
+    top: 0px;
+    height: 150px;
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    margin-left: 100px;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    color: #eae2b7;
+}
+
+.title-description {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    color: #293241;
+}
+
+.searchButton {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.text-center{
+    margin-top: 180px;
+    width: 100%;
+    height: 100%;  
+    margin-right: 500px;
+}
+.body {
+    background-color: #eae2b7;
+}
