@@ -1,7 +1,7 @@
 let form = document.getElementsByClassName('dictform')[0]
 let wordInput = document.getElementsByClassName('wordinput')[0]
 let wordInfo = document.getElementsByClassName('text-center')[0]
-let searchButton = document.getElementsByClassName('.searchButton')[0]
+let searchButton = document.getElementsByClassName('searchButton')[0]
 
 
 async function getMeaning(word) {
@@ -25,8 +25,8 @@ async function getMeaning(word) {
         paragraph.innerHTML = `               
         <span class= 'fas fa-volume-up audio-icon'></span>
         <audio class="audio"> <source src=${audioSource} type='audio/mpeg' /> </audio>        
-        <b>${data[0].word}</b>                          
-             
+        <b>${data[0].word}</b>                 
+            
         `
         wordInfo.appendChild(paragraph)
 
